@@ -1,7 +1,7 @@
 import React from 'react';
-import Token from '../MBToken.svg';
-import MetaMask from '../MetaMask.svg';
-import OpenSea from '../OpenSea.svg';
+import Token from '../images/MBToken.svg';
+import MetaMask from '../images/MetaMask.svg';
+import OpenSea from '../images/OpenSea.svg';
 
 const Companies = () => {
   return (

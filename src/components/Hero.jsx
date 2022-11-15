@@ -1,5 +1,5 @@
 import React from 'react';
-import Top from '../Hero.svg';
+import Top from '../images/Hero.svg';
 
 const Hero = () => {
   return (
