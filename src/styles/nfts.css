@@ -1,0 +1,36 @@
+.nfts{
+    display: flex;
+    padding: 100px 100px 0 100px; 
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.nft-text{
+    margin-top: 86px;
+}
+
+.nft-text h3{
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.nft-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 35px;
+    color: #FFFFFF;
+}
+
+.nft-text a{
+    display: block;
+    width: 35%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px 0 14px 33px;
+    color: #A02279;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 40px;
+}
