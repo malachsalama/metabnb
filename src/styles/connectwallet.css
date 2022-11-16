@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #cfd8dc;
-    padding: 0 25px;
+    padding: 1rem 1.5rem;
 }
 .connect-wallet ul {
     padding: 0 25px;
@@ -25,10 +25,15 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.connect-wallet ul li:hover {
+    background-color: #F8F9FA;
+}
 .connect-wallet ul li .title {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: .7rem 0;
 }
 .connect-wallet ul li .title h4 {
     margin-left: 10px;
