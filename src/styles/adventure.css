@@ -1,11 +1,11 @@
 .adventure{
-    margin: 39px 100px 0 100px; 
+    padding: 2.5rem 5rem; 
 }
 
 .adventure-title{
     text-align: center;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 1.5rem;
 }
 
 .adventure-cards{

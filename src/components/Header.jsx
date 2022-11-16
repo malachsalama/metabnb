@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from '../images/logo.svg';
-
+import "../styles/header.css";
+import logo from "../images/logo.svg";
+import { FaBars } from "react-icons/fa"
+import { useEffect, useState } from "react";
+import ConnectWallet from "./ConnectWallet"
 
 const Header = () => {
-  return (
-    <>
-    <div>
-        <img src={logo} alt='logo' />
-    </div>
-    <div>
-        <ul>
-            <li><a href='https://twiiter.com/malachsalama'>Home</a></li>
-            <li><a href='https://twiiter.com/malachsalama'>Place to stay</a></li>
-            <li><a href='https://twiiter.com/malachsalama'>NFTs</a></li>
-            <li><a href='https://twiiter.com/malachsalama'>Community</a></li>
-        </ul>
-    </div>
-    <div>
-        <button>connect wallet</button>
-    </div>
-    </>
-  )
+    const [menuToggle, setMenuToggle] = useState(false)
+    const [scroll, setScroll] = useState("")
+    const [isOpen, setOpen] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if(window.scrollY > 49 ) {
+                setScroll("scrolled")
+            }
+            else {
+                setScroll("")
+            }
+        })
+    }, [ setScroll ])
+
+    return (
+        <>
+        <div className={`navbar ${scroll}`}>
+            <img src={logo} height="30px" alt="logo" />
+            <nav className={(menuToggle) ? "active" : ""}>
+                <div className="nav-menu">
+                    <a href="/">Home</a>
+                    <a href="/places">Place to stay</a>
+                    <a href="/">NFTs</a>
+                    <a href="/">Community</a>
+                </div>
+                <button className="cto-button" onClick={() => setOpen(true)}>Connect wallet</button>
+            </nav>
+            <button className="nav-toggler" onClick={() => setMenuToggle(!menuToggle)}><FaBars /></button>
+        </div>
+
+
+        <div className={`connect-wallet--modal ${isOpen ? "active" : ""}`}>
+            <ConnectWallet setOpen={setOpen} />
+        </div>
+        </>
+    )
 }
 
 export default Header

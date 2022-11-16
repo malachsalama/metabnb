@@ -1,9 +1,9 @@
 footer {
-    padding: 40px 5%;
     background: #1D1D1E;
     color: #fff;
     display: flex;
     flex-wrap: wrap;
+    padding: 2rem 5rem;
 }
 
 footer ul {
@@ -12,9 +12,9 @@ footer ul {
     min-width: 23%;
 }
 
-/* footer ul h3 {
+footer ul h3 {
     padding: 8px 0;
-} */
+}
 
 footer li {
     list-style-type: none;

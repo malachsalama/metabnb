@@ -3,3 +3,8 @@
     border: 0;
     box-sizing: border-box;
   }
+
+  body {
+    font-family: 'Red Rose';
+    font-style: normal;
+  }
