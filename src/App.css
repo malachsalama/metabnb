@@ -1,10 +1,17 @@
-* {
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: 'Red Rose';
-    font-style: normal;
-  }
+.App {
+  font-family: 'Red Rose', cursive;
+  margin-top: 7%;
+  font-size: 14px;
+}
+input {
+  outline: 3px solid transparent;
+}
+input:hover,
+input:focus {
+  border: 1px solid #bcbcbc;
+  outline: 3px solid rgb(223, 223, 247);
+  transition: 0.5s;
+}
+h1 {
+  font-size: 40px;
+}
