@@ -1,0 +1,48 @@
+.place {
+    padding: 15px;
+    padding-bottom: 10px;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.place img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.place .heart {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 18px;
+    color: #D7D7D7;
+    filter: drop-shadow(-1px -1px 1px black) drop-shadow(1px 1px 0px black);
+}
+.place .heart.liked {
+    color: red;
+}
+.place .info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.place .info p {
+    line-height: 5px;
+}
+.place .info:nth-child(1) p:nth-child(2) {
+    font-weight: bold;
+}
+.place .info:nth-child(2) p:nth-child(1) {
+    margin-right: 5px;
+}
+.place .star-rating {
+    margin-top: 7px;
+}
+.place svg {
+    color: #A02279;
+    font-size: 10px;
+    margin-right: 5px;
+}
