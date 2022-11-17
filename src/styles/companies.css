@@ -1,9 +1,0 @@
-.brands {
-    background: #A02279;
-    display: flex;
-    justify-content: space-between;
-    overflow-x: hidden;
-}
-.brands a {
-    padding: 0.6rem 5rem;
-}

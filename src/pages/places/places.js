@@ -1,6 +1,6 @@
 import PlaceContainer from "../../components/placecontainer/PlaceContainer";
 import "./places.css";
-import filterIcon from "../../images/Filter.svg"
+import filterIcon from "../../images/setting-5.svg"
 import { useContext, useState } from "react";
 import { PlacesContext } from "../../context/PlacesContext";
 

@@ -1,6 +1,6 @@
 import { FaAngleRight, FaTimes } from "react-icons/fa";
 import "./connectwallet.css";
-import metamask from "../../images/MetaMask.svg";
+import metamask from "../../images/walletMetaMask.svg";
 import walletconnect from "../../images/walletConnect.svg";
 
 const ConnectWallet = ({ setOpen }) => {
