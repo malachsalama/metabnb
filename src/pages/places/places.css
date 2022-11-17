@@ -11,7 +11,7 @@
 .categories ul li {
     display: inline-block;
     padding: 10px;
-    margin-right: 30px;
+    margin-right: 25px;
     cursor: pointer;
 }
 .categories button {
