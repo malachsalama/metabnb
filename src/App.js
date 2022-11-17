@@ -1,20 +1,25 @@
-import './App.css';
-import Adventure from './components/Adventure';
-import Companies from './components/Companies';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Nfts from './components/Nfts';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Footer from "./components/footer/Footer";
+
+import Header from "./components/header/Header"
+import PlacesContextProvider from "./context/PlacesContext";
+import Home from "./pages/home/Home";
+import Places from "./pages/places/Places";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Companies />
-      <Adventure />
-      <Nfts />
-      <Footer />
+      <PlacesContextProvider>
+        <Router>
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/places" element={<Places />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </PlacesContextProvider>
     </div>
   );
 }
