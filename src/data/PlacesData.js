@@ -1,19 +1,19 @@
-import s1 from "../images/stay/Stay1.svg";
-import s2 from "../images/stay/Stay2.svg";
-import s3 from "../images/stay/Stay3.svg";
-import s4 from "../images/stay/Stay4.svg";
-import s5 from "../images/stay/Stay5.svg";
-import s6 from "../images/stay/Stay6.svg";
-import s7 from "../images/stay/Stay7.svg";
-import s8 from "../images/stay/Stay8.svg";
-import s9 from "../images/stay/Stay9.svg";
-import s10 from "../images/stay/Stay10.svg";
-import s11 from "../images/stay/Stay11.svg";
-import s12 from "../images/stay/Stay12.svg";
-import s13 from "../images/stay/Stay13.svg";
-import s14 from "../images/stay/Stay14.svg";
-import s15 from "../images/stay/Stay15.svg";
-import s16 from "../images/stay/Stay16.svg";
+import s1 from "../images/stay/Stay1.webp";
+import s2 from "../images/stay/Stay2.webp";
+import s3 from "../images/stay/Stay3.webp";
+import s4 from "../images/stay/Stay4.webp";
+import s5 from "../images/stay/Stay5.webp";
+import s6 from "../images/stay/Stay6.webp";
+import s7 from "../images/stay/Stay7.webp";
+import s8 from "../images/stay/Stay8.webp";
+import s9 from "../images/stay/Stay9.webp";
+import s10 from "../images/stay/Stay10.webp";
+import s11 from "../images/stay/Stay11.webp";
+import s12 from "../images/stay/Stay12.webp";
+import s13 from "../images/stay/Stay13.webp";
+import s14 from "../images/stay/Stay14.webp";
+import s15 from "../images/stay/Stay15.webp";
+import s16 from "../images/stay/Stay16.webp";
 
 export const placesData = [
     {
